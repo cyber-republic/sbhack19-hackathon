@@ -7,6 +7,14 @@ The challenges are:
 - Challenge 2: Create a solution that ensures traceability and authentication of unique products within the pharma supply chain.
 - Challenge 3: Guarantee traceability and authentication without divulging confidential product information with a public blockchain.
 
+While monitoring all conditions of cargo during transport generates large volumes of data, it must be exchanged in real-time securely and permission based.
+
+By using peer-to-peer communication inside an Internet of Things framework, these processes may be entirely automated without having to publishing confidential information to a shared ledger or store it in a centralized manner.
+
+On top, Decentralized Identities, also called DIDs, are assigned on a public ledger to every product and actor involved in the supply chain.
+Eventually, only the critical states of the product are written on the DIDs along its journey.
+
+This way, permission based real-time data exchange is enabled, while public traceability also becomes possible.
 
 ## Why the combination of IoT, Peer-to-Peer communication and Blockchain?
 - Minimize data written on the blockchain
