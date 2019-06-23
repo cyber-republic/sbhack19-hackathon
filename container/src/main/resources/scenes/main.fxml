@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: #edf2f4;" stylesheets="@../styles/custom_styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.elastonias.container.controller.MainController">
+   <children>
+      <AnchorPane layoutX="171.0" layoutY="71.0" prefHeight="200.0" prefWidth="200.0" styleClass="pane_background" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Text layoutX="66.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Container" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="qrCodeImageView" fitHeight="170.0" fitWidth="170.0" layoutX="20.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="60.0" />
+            <TableView fx:id="productListTableView" layoutX="223.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="90.0">
+               <columns>
+                  <TableColumn fx:id="didColumn" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="400.0" resizable="false" text="Product DID" />
+               </columns>
+            </TableView>
+            <Text layoutX="244.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product List" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="60.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3778C2</color>
+    <color name="colorPrimaryDark">#3778C2</color>
+    <color name="colorAccent">#3778C2</color>
+    <color name="colorFlash">#edf2f4</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#3EB650</color>
+    <color name="colorOrange">#FCC133</color>
+    <color name="colorRed">#E12B38</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorGray7">#777</color>
+</resources>
