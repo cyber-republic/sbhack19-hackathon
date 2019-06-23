@@ -120,7 +120,16 @@ The solution consists of two software components:
 
 
 ## Demonstration
-Coming soon.
+
+
+**Container**
+In terminal run:
+"sudo java -jar container.jar"
+
+**Android**
+Import Android Studio project into Android Studio.
+Build and Run.
+
 
 ## Used Public Libraries
 
